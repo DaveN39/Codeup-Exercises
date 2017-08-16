@@ -10,7 +10,7 @@ function parseContacts($filename)
     // add new line at the end of each string on array
     array_pop($array);
 
-    $filename = 'contents.txt';
+    $filename = 'contacts.txt';
 
     $newContacts = [];
 
@@ -29,4 +29,4 @@ function parseContacts($filename)
     return $newContacts;
 }
 
-var_dump(parseContacts('contents.txt'));
+var_dump(parseContacts('contacts.txt'));
